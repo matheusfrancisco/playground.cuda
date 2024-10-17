@@ -14,7 +14,7 @@ void helloCPU()
 
 __global__ void helloGPU()
 {
-  printf("Hello also from the CPU.\n");
+  printf("Hello from GPU.\n");
 }
 
 int main()
